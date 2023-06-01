@@ -14,7 +14,7 @@
         </h1>
         <div class="flex items-center flex-flow-reverse md:flex-row gap-3 md:gap-12">
           <ul id="menu" class="nav-menus translate-y-[-200%] md:translate-y-0">
-            <a class="nav-link uppercase" href="#projects">Projects</a>
+            <a class="nav-link uppercase" href="/">Projects</a>
             <a class="nav-link uppercase" href="#contact">Contact</a>
             <a class="nav-link" href="https://www.linkedin.com/in/bnazon/" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
@@ -56,18 +56,21 @@
       <section id="portfolio" class="pt-32">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
 
-          <div class="overflow-hidden rounded relative group">
-            <div class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
-              <div class="text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4  transition duration-300 ease-in-out font-bold uppercase">
-                Earth
+          <a href="./projects/earth.html">
+            <div class="overflow-hidden rounded relative group">
+              <div class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
+                <div class="text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4  transition duration-300 ease-in-out font-bold uppercase">
+                  Earth
+                </div>
               </div>
+              <img
+                alt=""
+                class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
+                src="./public/projects/preview/1.jpg"
+              />
             </div>
-            <img
-              alt=""
-              class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-              src="./public/projects/preview/1.jpg"
-            />
-          </div>
+          </a>
+          
           
           <div class="overflow-hidden rounded relative group">
             <div class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -322,8 +325,8 @@
     </main>
 
     <footer class="shadow m-4">
-      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
-        <span class="text-sm text-primary-gray sm:text-center">Copyright © <span id="year"></span> by Benjamin Nazon, All Rights Reserved</span>
+      <div class="w-full mx-auto max-w-screen-xl p-4 text-center">
+        <span class="text-sm text-primary-gray">Copyright © <span id="year"></span> by Benjamin Nazon, All Rights Reserved</span>
       </div>
     </footer>
 
