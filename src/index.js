@@ -1,5 +1,8 @@
 import './style.css'
 
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 // Toggle menu
 const toggleMenu = document.querySelector("#toggle-menu");
 const toggleMenuIcon = toggleMenu.querySelector("img");
@@ -52,3 +55,7 @@ if (toTopButton) {
 
 //datetime
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+Fancybox.bind("[data-fancybox]", {
+  contentClick: "close"
+});
