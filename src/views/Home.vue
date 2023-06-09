@@ -1,8 +1,12 @@
+<script setup>
+  import Contact from "@/components/Contact.vue"
+</script>
+
 <template>
   <section id="projects" class="pt-32">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
 
-      <a href="./projects/earth.html">
+      <RouterLink to="earth">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -12,11 +16,11 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/1.jpg" />
+            src="/projects/preview/1.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
-      <a href="./projects/jul-irreversible.html">
+      <RouterLink to="jul-irreversible">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -26,11 +30,11 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/2.jpg" />
+            src="/projects/preview/2.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
-      <a href="./projects/wimagatee.html">
+      <RouterLink to="wimagatee">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -40,11 +44,11 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/3.jpg" />
+            src="/projects/preview/3.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
-      <a href="./projects/rita-ora.html">
+      <RouterLink to="rita-ora">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -54,11 +58,11 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/4.jpg" />
+            src="/projects/preview/4.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
-      <a href="./projects/ilu-tower.html">
+      <RouterLink to="ilu-tower">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -68,11 +72,11 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/5.jpg" />
+            src="/projects/preview/5.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
-      <a href="./projects/operation-sconce.html">
+      <RouterLink to="operation-sconce">
         <div class="overflow-hidden rounded relative group">
           <div
             class="rounded z-30 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 text-white flex items-center justify-center">
@@ -82,9 +86,9 @@
             </div>
           </div>
           <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-            src="../../public/projects/preview/6.jpg" />
+            src="/projects/preview/6.jpg" />
         </div>
-      </a>
+      </RouterLink>
 
       <div class="overflow-hidden rounded relative group">
         <div
@@ -95,7 +99,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/7_2.jpg" />
+          src="/projects/preview/7_2.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -107,7 +111,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/8_2.jpg" />
+          src="/projects/preview/8_2.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -119,7 +123,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/9.jpg" />
+          src="/projects/preview/9.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -131,7 +135,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/10.jpg" />
+          src="/projects/preview/10.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -143,7 +147,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/11.jpg" />
+          src="/projects/preview/11.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -155,7 +159,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/12.jpg" />
+          src="/projects/preview/12.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -167,7 +171,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/13.jpg" />
+          src="/projects/preview/13.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -179,7 +183,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/14_2.jpg" />
+          src="/projects/preview/14_2.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -191,7 +195,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/15.jpg" />
+          src="/projects/preview/15.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -203,7 +207,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/16.jpg" />
+          src="/projects/preview/16.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -215,7 +219,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/17.jpg" />
+          src="/projects/preview/17.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -227,7 +231,7 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/18.jpg" />
+          src="/projects/preview/18.jpg" />
       </div>
 
       <div class="overflow-hidden rounded relative group">
@@ -239,9 +243,11 @@
           </div>
         </div>
         <img alt="" class="h-full w-full group-hover:scale-110 transition duration-300 ease-in-out"
-          src="../../public/projects/preview/19.jpg" />
+          src="/projects/preview/19.jpg" />
       </div>
 
     </div>
   </section>
+
+  <Contact />
 </template>

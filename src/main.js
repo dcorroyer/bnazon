@@ -1,8 +1,16 @@
 import { createApp } from 'vue'
+
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import router from './router'
+
+const app = createApp(App)
+app.use(router);
+app.mount('#app')
 
 // Toggle menu
 const toggleMenu = document.querySelector("#toggle-menu");

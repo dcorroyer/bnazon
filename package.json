@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.19",
     "vue": "^3.2.47",
     "vue-router": "4"
   },

@@ -1,6 +1,6 @@
 <template>
   <section id="contact"
-    class="flex flex-col gap-12 justify-center items-center pt-8 md:pt-8 pb-8 md:pb-8 bg-primary-gray/5">
+    class="flex flex-col gap-12 justify-center items-center rounded mt-2 md:mt-2 pt-8 md:pt-8 pb-8 md:pb-8 bg-primary-gray/5">
     <h2 class="text-4xl md:text-5xl font-bold">
       Contact
     </h2>
