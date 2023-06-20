@@ -2,8 +2,7 @@
 export default {
   content: [
     './index.html',
-    './projects//*.html',
-    './src/*.{js,ts}'
+    './src/**/*.{vue,js,ts}'
   ],
   darkMode: 'class',
   mode: 'jit',
